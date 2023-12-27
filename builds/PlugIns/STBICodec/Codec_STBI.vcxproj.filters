@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\STBICodec\src\OgreSTBICodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\STBICodec\include\OgreSTBICodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\include\OgreSTBICodecExports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B0D8DF87-7699-3108-A903-AD04EE667C1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{579F3BE6-B2E6-3BA9-A289-00BCE0765961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{632F6D81-8A8A-3A1B-8E8C-BC66400494D0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>RenderSystem_GL3Plus</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ogre-git\ogre\ogre\builds\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RenderSystem_GL3Plus.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RenderSystem_GL3Plus_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ogre-git\ogre\ogre\builds\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RenderSystem_GL3Plus.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RenderSystem_GL3Plus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ogre-git\ogre\ogre\builds\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RenderSystem_GL3Plus.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RenderSystem_GL3Plus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ogre-git\ogre\ogre\builds\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RenderSystem_GL3Plus.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RenderSystem_GL3Plus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_MT;_USRDLL;CMAKE_INTDIR="Debug";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MT;_USRDLL;CMAKE_INTDIR=\"Debug\";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\OgreGLSupport_d.lib;..\..\lib\Debug\OgreMain_d.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/Debug/RenderSystem_GL3Plus_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/Debug/RenderSystem_GL3Plus_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR="Release";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR=\"Release\";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\OgreGLSupport.lib;..\..\lib\Release\OgreMain.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/Release/RenderSystem_GL3Plus.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/Release/RenderSystem_GL3Plus.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR="MinSizeRel";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR=\"MinSizeRel\";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\OgreGLSupport.lib;..\..\lib\MinSizeRel\OgreMain.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/MinSizeRel/RenderSystem_GL3Plus.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/MinSizeRel/RenderSystem_GL3Plus.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR="RelWithDebInfo";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR=\"RelWithDebInfo\";RenderSystem_GL3Plus_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include;D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include;D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\OgreGLSupport.lib;..\..\lib\RelWithDebInfo\OgreMain.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/RelWithDebInfo/RenderSystem_GL3Plus.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/RelWithDebInfo/RenderSystem_GL3Plus.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusFBOMultiRenderTarget.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusFBORenderTexture.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusFrameBufferObject.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwareBuffer.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwareBufferManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwareOcclusionQuery.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwarePixelBuffer.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusPixelFormat.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusPlugin.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusPrerequisites.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusRenderSystem.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusRenderToVertexBuffer.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusStateCacheManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusTexture.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusTextureBuffer.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusTextureManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreSPIRVShaderFactory.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\include\OgreGL3PlusExports.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLExtSupport.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLMonolithicProgram.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLProgram.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLProgramManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLSeparableProgram.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLShader.h" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLExtSupport.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLMonolithicProgram.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLShader.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusEngineDll.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFBOMultiRenderTarget.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFBORenderTexture.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFrameBufferObject.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBuffer.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBufferManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareOcclusionQuery.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwarePixelBuffer.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPixelFormat.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPlugin.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderToVertexBuffer.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTexture.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreSPIRVShaderFactory.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\gl3w.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\RenderSystems\GLSupport\OgreGLSupport.vcxproj">
+      <Project>{4C372670-A871-39DA-8F14-CA77333E2771}</Project>
+      <Name>OgreGLSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\OgreMain\OgreMain.vcxproj">
+      <Project>{D4E82BF3-54F2-3703-8387-B2B7E87A8276}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿  OgreBspLevel.cpp
+  OgreBspNode.cpp
+  OgreBspSceneManager.cpp
+  OgreBspSceneManagerDll.cpp
+  OgreBspSceneManagerPlugin.cpp
+  OgreBspSceneNode.cpp
+  OgreQuake3Level.cpp
+  OgreQuake3Shader.cpp
+  OgreQuake3ShaderManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreQuake3ShaderManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreQuake3Level.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp)
+D:\ogre-git\ogre\ogre\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp(264,83): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/Plugin_BSPSceneManager_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/Plugin_BSPSceneManager_d.exp
+  Plugin_BSPSceneManager.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\Plugin_BSPSceneManager_d.dll

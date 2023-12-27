@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9A72E3A8-0286-3309-9B12-318658344CA4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>RenderSystem_Direct3D9</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ogre-git\ogre\ogre\builds\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RenderSystem_Direct3D9.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RenderSystem_Direct3D9_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ogre-git\ogre\ogre\builds\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RenderSystem_Direct3D9.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RenderSystem_Direct3D9</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ogre-git\ogre\ogre\builds\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RenderSystem_Direct3D9.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RenderSystem_Direct3D9</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ogre-git\ogre\ogre\builds\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RenderSystem_Direct3D9.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RenderSystem_Direct3D9</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR="Debug";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR=\"Debug\";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\OgreMain_d.lib;E:\dx11\Lib\x64\d3d9.lib;E:\dx11\Lib\x64\d3dx9.lib;E:\dx11\Lib\x64\dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/Debug/RenderSystem_Direct3D9_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/Debug/RenderSystem_Direct3D9_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR="Release";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR=\"Release\";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\OgreMain.lib;E:\dx11\Lib\x64\d3d9.lib;E:\dx11\Lib\x64\d3dx9.lib;E:\dx11\Lib\x64\dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/Release/RenderSystem_Direct3D9.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/Release/RenderSystem_Direct3D9.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR="MinSizeRel";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR=\"MinSizeRel\";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\OgreMain.lib;E:\dx11\Lib\x64\d3d9.lib;E:\dx11\Lib\x64\d3dx9.lib;E:\dx11\Lib\x64\dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/MinSizeRel/RenderSystem_Direct3D9.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/MinSizeRel/RenderSystem_Direct3D9.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR="RelWithDebInfo";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OGRED3DENGINEDLL_EXPORTS;_MT;_USRDLL;CMAKE_INTDIR=\"RelWithDebInfo\";RenderSystem_Direct3D9_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include;E:\dx11\Include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\OgreMain.lib;E:\dx11\Lib\x64\d3d9.lib;E:\dx11\Lib\x64\d3dx9.lib;E:\dx11\Lib\x64\dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/RelWithDebInfo/RenderSystem_Direct3D9.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/RelWithDebInfo/RenderSystem_Direct3D9.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9DepthBuffer.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9Device.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9DeviceManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9Driver.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9DriverList.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9GpuProgram.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9GpuProgramManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9HLSLProgram.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9HLSLProgramFactory.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9HardwareBuffer.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9HardwareBufferManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9HardwareOcclusionQuery.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9HardwarePixelBuffer.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9Mappings.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9MultiRenderTarget.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9Plugin.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9Prerequisites.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9RenderSystem.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9RenderWindow.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9Resource.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9ResourceManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9StereoDriverAMD.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9StereoDriverBridge.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9StereoDriverImpl.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9StereoDriverNVIDIA.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9Texture.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9TextureManager.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9VertexDeclaration.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9VideoMode.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\include\OgreD3D9VideoModeList.h" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9DepthBuffer.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9Device.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9DeviceManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9Driver.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9DriverList.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9EngineDll.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9GpuProgram.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9GpuProgramManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgramFactory.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9HardwareBuffer.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9HardwareBufferManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9HardwareOcclusionQuery.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9HardwarePixelBuffer.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9Mappings.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9MultiRenderTarget.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9Plugin.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9RenderSystem.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9RenderWindow.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9Resource.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9ResourceManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9StereoDriverAMD.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9StereoDriverBridge.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9StereoDriverNVIDIA.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9Texture.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9TextureManager.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9VertexDeclaration.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9VideoMode.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreD3D9VideoModeList.cpp" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\Direct3D9\src\OgreDxErr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\OgreMain\OgreMain.vcxproj">
+      <Project>{D4E82BF3-54F2-3703-8387-B2B7E87A8276}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

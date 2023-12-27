@@ -1,0 +1,12 @@
+﻿  FirstScene.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+FirstScene.cpp(163,61): warning C4305: “参数”: 从“double”到“float”截断
+FirstScene.cpp(164,62): warning C4305: “参数”: 从“double”到“float”截断
+FirstScene.cpp(179,47): warning C4305: “参数”: 从“double”到“float”截断
+FirstScene.cpp(180,48): warning C4305: “参数”: 从“double”到“float”截断
+  FirstScene.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\FirstScene_d.exe

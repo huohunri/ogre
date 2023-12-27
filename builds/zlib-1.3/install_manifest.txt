@@ -1,0 +1,7 @@
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/zlib.lib
+D:/ogre-git/ogre/ogre/builds/Dependencies/bin/zlib.dll
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/zlibstatic.lib
+D:/ogre-git/ogre/ogre/builds/Dependencies/include/zconf.h
+D:/ogre-git/ogre/ogre/builds/Dependencies/include/zlib.h
+D:/ogre-git/ogre/ogre/builds/Dependencies/share/man/man3/zlib.3
+D:/ogre-git/ogre/ogre/builds/Dependencies/share/pkgconfig/zlib.pc

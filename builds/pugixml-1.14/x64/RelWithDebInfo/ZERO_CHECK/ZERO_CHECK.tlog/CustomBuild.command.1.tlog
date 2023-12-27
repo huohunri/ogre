@@ -1,0 +1,10 @@
+^D:\OGRE-GIT\OGRE\OGRE\BUILDS\PUGIXML-1.14\CMAKEFILES\EC48B93430D3B6011E98682AB902B5E2\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe -SD:/ogre-git/ogre/ogre/builds/pugixml-1.14 -BD:/ogre-git/ogre/ogre/builds/pugixml-1.14 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ogre-git/ogre/ogre/builds/pugixml-1.14/pugixml.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

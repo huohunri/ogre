@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/ogre-git/ogre/ogre/builds/bullet3-3.25/src/BulletInverseDynamics/CMakeLists.txt
+  IDMath.cpp
+  MultiBodyTree.cpp
+  MultiBodyTreeInitCache.cpp
+  MultiBodyTreeImpl.cpp
+  正在生成代码...
+  BulletInverseDynamics.vcxproj -> D:\ogre-git\ogre\ogre\builds\bullet3-3.25\lib\Debug\BulletInverseDynamics_Debug.lib

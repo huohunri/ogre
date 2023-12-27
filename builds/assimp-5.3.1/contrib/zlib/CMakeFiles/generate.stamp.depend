@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/contrib/zlib/CMakeLists.txt
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/contrib/zlib/zconf.h.cmakein
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/contrib/zlib/zlib.pc.cmakein
+E:/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+E:/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+E:/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+E:/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+E:/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
+E:/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake

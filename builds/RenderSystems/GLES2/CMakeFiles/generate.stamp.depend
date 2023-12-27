@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/ogre-git/ogre/ogre/CMake/Packages/FindGLSLOptimizer.cmake
+D:/ogre-git/ogre/ogre/CMake/Packages/FindHLSL2GLSL.cmake
+D:/ogre-git/ogre/ogre/CMake/Utils/FindPkgMacros.cmake
+D:/ogre-git/ogre/ogre/RenderSystems/GLES2/CMakeLists.txt
+E:/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+E:/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+E:/CMake/share/cmake-3.28/Modules/FindPkgConfig.cmake
+E:/CMake/share/cmake-3.28/Modules/exportheader.cmake.in

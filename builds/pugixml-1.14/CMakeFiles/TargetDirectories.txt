@@ -1,0 +1,9 @@
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/Experimental.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/Nightly.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/Continuous.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/NightlyMemoryCheck.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/pugixml-static.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/RUN_TESTS.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/INSTALL.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/ALL_BUILD.dir
+D:/ogre-git/ogre/ogre/builds/pugixml-1.14/CMakeFiles/ZERO_CHECK.dir

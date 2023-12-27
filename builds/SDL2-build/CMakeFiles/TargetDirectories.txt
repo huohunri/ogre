@@ -1,0 +1,8 @@
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/sdl_headers_copy.dir
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/SDL2main.dir
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/SDL2.dir
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/SDL2_test.dir
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/uninstall.dir
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/INSTALL.dir
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/ALL_BUILD.dir
+D:/ogre-git/ogre/ogre/builds/SDL2-build/CMakeFiles/ZERO_CHECK.dir

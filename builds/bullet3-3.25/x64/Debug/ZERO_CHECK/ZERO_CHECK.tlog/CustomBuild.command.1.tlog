@@ -1,0 +1,10 @@
+^D:\OGRE-GIT\OGRE\OGRE\BUILDS\BULLET3-3.25\CMAKEFILES\78E6BB35C1A3993E0504C09A51DEB1D0\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe -SD:/ogre-git/ogre/ogre/builds/bullet3-3.25 -BD:/ogre-git/ogre/ogre/builds/bullet3-3.25 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ogre-git/ogre/ogre/builds/bullet3-3.25/BULLET_PHYSICS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

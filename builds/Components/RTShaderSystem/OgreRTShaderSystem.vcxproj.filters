@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\builds\Components\RTShaderSystem\CMakeFiles\OgreRTShaderSystem.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderCGProgramWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderCookTorranceLighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExDualQuaternionSkinning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExGBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExHardwareSkinning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExHardwareSkinningTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExIntegratedPSSM3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExLayeredBlending.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExLinearSkinning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExNormalMapLighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExPerPixelLighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExTriplanarTexturing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExWBOIT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPAlphaTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPColour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPFog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPLighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPTexturing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFunctionAtom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderGLSLESProgramWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderGLSLProgramWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderImageBasedLighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderMaterialSerializerListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderProgramManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderProgramProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderProgramSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderProgramWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderProgramWriterManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderRenderState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderScriptTranslator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderSubRenderState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreRTShaderSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderExHardwareSkinning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderExLayeredBlending.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFFPRenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderProgramManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderProgramSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderProgramWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderProgramWriterManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderRenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderScriptTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderSubRenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\include\OgreRTShaderExports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\include\OgreRTShaderConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\Components\RTShaderSystem\CMakeFiles\OgreRTShaderSystem.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\Components\RTShaderSystem\CMakeFiles\OgreRTShaderSystem.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\Components\RTShaderSystem\CMakeFiles\OgreRTShaderSystem.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\Components\RTShaderSystem\CMakeFiles\OgreRTShaderSystem.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreRTShader.i" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B0D8DF87-7699-3108-A903-AD04EE667C1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{0868049B-61B8-3F06-9C46-4A09ABFA8780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{579F3BE6-B2E6-3BA9-A289-00BCE0765961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

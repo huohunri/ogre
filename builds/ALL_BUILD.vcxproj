@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46AEE438-DD45-3D78-9384-71F906CD9B90}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\PlugIns\STBICodec\Codec_STBI.vcxproj">
+      <Project>{2BBC0708-5D24-3AA2-9C07-4D2B55192292}</Project>
+      <Name>Codec_STBI</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Samples\DefaultSamples.vcxproj">
+      <Project>{9C77F28D-098E-37C1-99EA-71FA0D00C5CE}</Project>
+      <Name>DefaultSamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Bites\OgreBites.vcxproj">
+      <Project>{CDCD0E37-B3C5-3161-9612-26AB10C20A2C}</Project>
+      <Name>OgreBites</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Bullet\OgreBullet.vcxproj">
+      <Project>{03429366-3BEC-3D16-A1BF-E3291552E237}</Project>
+      <Name>OgreBullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\RenderSystems\GLSupport\OgreGLSupport.vcxproj">
+      <Project>{4C372670-A871-39DA-8F14-CA77333E2771}</Project>
+      <Name>OgreGLSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\OgreMain\OgreMain.vcxproj">
+      <Project>{D4E82BF3-54F2-3703-8387-B2B7E87A8276}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj">
+      <Project>{2B73A698-D4A9-3C0C-89C1-0266ACB9E0F0}</Project>
+      <Name>OgreMeshLodGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj">
+      <Project>{B0DC186A-4A1D-3D82-936A-33DF83284A77}</Project>
+      <Name>OgreMeshUpgrader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Overlay\OgreOverlay.vcxproj">
+      <Project>{DA990C45-33D5-3453-9BEC-AAB67CE00025}</Project>
+      <Name>OgreOverlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Paging\OgrePaging.vcxproj">
+      <Project>{B343C97D-0256-3ADB-8E68-89797DE991D1}</Project>
+      <Name>OgrePaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Property\OgreProperty.vcxproj">
+      <Project>{5BD58DBF-0030-3B3B-AD39-D1D697F039AB}</Project>
+      <Name>OgreProperty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj">
+      <Project>{730C62C0-94A6-30ED-A0CF-C3754BF35FDB}</Project>
+      <Name>OgreRTShaderSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Terrain\OgreTerrain.vcxproj">
+      <Project>{10EC894E-59BA-3EF0-8E0C-C6E629AD25B5}</Project>
+      <Name>OgreTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Volume\OgreVolume.vcxproj">
+      <Project>{F5678B55-1901-3A55-9943-CC61A5A54264}</Project>
+      <Name>OgreVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Tools\XMLConverter\OgreXMLConverter.vcxproj">
+      <Project>{E05EA8A7-3314-31F1-AC4C-D6F87AA83F89}</Project>
+      <Name>OgreXMLConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj">
+      <Project>{194FDF11-DAC3-3D7D-9AB5-5EFBB7D3C9D5}</Project>
+      <Name>Plugin_BSPSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\PlugIns\DotScene\Plugin_DotScene.vcxproj">
+      <Project>{7BBBB103-4679-3371-97D8-E866C0CD6663}</Project>
+      <Name>Plugin_DotScene</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj">
+      <Project>{6F794F3B-902B-33D1-813D-357D43600423}</Project>
+      <Name>Plugin_OctreeSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\PlugIns\OctreeZone\Plugin_OctreeZone.vcxproj">
+      <Project>{5FD7ED43-7E9D-3171-B509-1821666E286F}</Project>
+      <Name>Plugin_OctreeZone</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj">
+      <Project>{AED36110-67AF-37DC-860B-44809A0EB93E}</Project>
+      <Name>Plugin_PCZSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj">
+      <Project>{C58D2299-DCE6-3F54-BC77-438178F17F3C}</Project>
+      <Name>Plugin_ParticleFX</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\RenderSystems\Direct3D11\RenderSystem_Direct3D11.vcxproj">
+      <Project>{08E3AEB6-673B-3C33-9667-D48A538B07BD}</Project>
+      <Name>RenderSystem_Direct3D11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\RenderSystems\Direct3D9\RenderSystem_Direct3D9.vcxproj">
+      <Project>{9A72E3A8-0286-3309-9B12-318658344CA4}</Project>
+      <Name>RenderSystem_Direct3D9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\RenderSystems\GL\RenderSystem_GL.vcxproj">
+      <Project>{CD587598-A352-325F-8395-C669758C4597}</Project>
+      <Name>RenderSystem_GL</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\RenderSystems\GL3Plus\RenderSystem_GL3Plus.vcxproj">
+      <Project>{632F6D81-8A8A-3A1B-8E8C-BC66400494D0}</Project>
+      <Name>RenderSystem_GL3Plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\RenderSystems\GLES2\RenderSystem_GLES2.vcxproj">
+      <Project>{33213E80-CAC1-3890-BF76-2F05F6D6586F}</Project>
+      <Name>RenderSystem_GLES2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Samples\Browser\SampleBrowser.vcxproj">
+      <Project>{EE217E9E-7941-3D6C-9E84-167ED138D2AD}</Project>
+      <Name>SampleBrowser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Tools\VRMLConverter\VRMLConverter.vcxproj">
+      <Project>{39932284-477B-3613-9DFC-7D1C8A053CD5}</Project>
+      <Name>VRMLConverter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

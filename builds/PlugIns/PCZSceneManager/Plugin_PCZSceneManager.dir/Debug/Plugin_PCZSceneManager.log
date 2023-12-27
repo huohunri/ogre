@@ -1,0 +1,57 @@
+﻿  OgreAntiPortal.cpp
+  OgreCapsule.cpp
+  OgreDefaultZone.cpp
+  OgrePCPlane.cpp
+  OgrePCZCamera.cpp
+  OgrePCZFrustum.cpp
+  OgrePCZLight.cpp
+  OgrePCZPlugin.cpp
+  OgrePCZSceneManager.cpp
+  OgrePCZSceneManagerDll.cpp
+  OgrePCZSceneNode.cpp
+  OgrePCZSceneQuery.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgreAntiPortal.cpp)
+  OgrePCZone.cpp
+  OgrePCZoneFactory.cpp
+  OgrePortal.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgreAntiPortal.cpp)
+  OgrePortalBase.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZCamera.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZFrustum.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZCamera.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp)
+  OgreSegment.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp)
+D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZCamera.cpp(44,56): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZFrustum.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZone.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZoneFactory.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePortal.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZone.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZoneFactory.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePortal.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp)
+D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgreSegment.cpp(42,39): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp)
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/Plugin_PCZSceneManager_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/Plugin_PCZSceneManager_d.exp
+  Plugin_PCZSceneManager.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\Plugin_PCZSceneManager_d.dll

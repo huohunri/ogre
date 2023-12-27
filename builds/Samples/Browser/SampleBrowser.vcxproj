@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE217E9E-7941-3D6C-9E84-167ED138D2AD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SampleBrowser</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ogre-git\ogre\ogre\builds\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SampleBrowser.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SampleBrowser_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ogre-git\ogre\ogre\builds\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SampleBrowser.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SampleBrowser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ogre-git\ogre\ogre\builds\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SampleBrowser.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SampleBrowser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ogre-git\ogre\ogre\builds\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SampleBrowser.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SampleBrowser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\OgreBites_d.lib;..\..\lib\Debug\OgreOverlay_d.lib;..\..\lib\Debug\OgreRTShaderSystem_d.lib;..\..\lib\Debug\OgreMain_d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/Debug/SampleBrowser_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/Debug/SampleBrowser_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\OgreBites.lib;..\..\lib\Release\OgreOverlay.lib;..\..\lib\Release\OgreRTShaderSystem.lib;..\..\lib\Release\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/Release/SampleBrowser.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/Release/SampleBrowser.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\OgreBites.lib;..\..\lib\MinSizeRel\OgreOverlay.lib;..\..\lib\MinSizeRel\OgreRTShaderSystem.lib;..\..\lib\MinSizeRel\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/MinSizeRel/SampleBrowser.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/MinSizeRel/SampleBrowser.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;INCLUDE_RTSHADER_SYSTEM;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ogre-git\ogre\ogre\Samples\Common\include;D:\ogre-git\ogre\ogre\Samples\Browser\include;D:\ogre-git\ogre\ogre\Samples\CSMShadows\include;D:\ogre-git\ogre\ogre\Samples\Character\include;D:\ogre-git\ogre\ogre\Samples\Compositor\include;D:\ogre-git\ogre\ogre\Samples\DeferredShading\include;D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include;D:\ogre-git\ogre\ogre\Samples\Isosurf\include;D:\ogre-git\ogre\ogre\Samples\OceanDemo\include;D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include;D:\ogre-git\ogre\ogre\Samples\ParticleGS\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystem\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include;D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\include;D:\ogre-git\ogre\ogre\Samples\Simple\include;D:\ogre-git\ogre\ogre\Samples\TerrainTessellation\include;D:\ogre-git\ogre\ogre\Samples\VolumeTex\include;D:\ogre-git\ogre\ogre\Samples\Water\include;D:\ogre-git\ogre\ogre\OgreMain\include;D:\ogre-git\ogre\ogre\builds\include;D:\ogre-git\ogre\ogre\Components\Bites\include;D:\ogre-git\ogre\ogre\Components\Overlay\include;D:\ogre-git\ogre\ogre\builds\imgui-1.90;D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\OgreBites.lib;..\..\lib\RelWithDebInfo\OgreOverlay.lib;..\..\lib\RelWithDebInfo\OgreRTShaderSystem.lib;..\..\lib\RelWithDebInfo\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ogre-git/ogre/ogre/builds/lib/RelWithDebInfo/SampleBrowser.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ogre-git/ogre/ogre/builds/bin/RelWithDebInfo/SampleBrowser.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Samples\Browser\include\SampleBrowser.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Samples\Common\include\Sample.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Samples\Common\include\SampleContext.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Samples\Common\include\SamplePlugin.h" />
+    <ClInclude Include="D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h" />
+    <ClCompile Include="D:\ogre-git\ogre\ogre\Samples\Browser\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Samples\DefaultSamples.vcxproj">
+      <Project>{9C77F28D-098E-37C1-99EA-71FA0D00C5CE}</Project>
+      <Name>DefaultSamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Bites\OgreBites.vcxproj">
+      <Project>{CDCD0E37-B3C5-3161-9612-26AB10C20A2C}</Project>
+      <Name>OgreBites</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Bullet\OgreBullet.vcxproj">
+      <Project>{03429366-3BEC-3D16-A1BF-E3291552E237}</Project>
+      <Name>OgreBullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\OgreMain\OgreMain.vcxproj">
+      <Project>{D4E82BF3-54F2-3703-8387-B2B7E87A8276}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj">
+      <Project>{2B73A698-D4A9-3C0C-89C1-0266ACB9E0F0}</Project>
+      <Name>OgreMeshLodGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Overlay\OgreOverlay.vcxproj">
+      <Project>{DA990C45-33D5-3453-9BEC-AAB67CE00025}</Project>
+      <Name>OgreOverlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj">
+      <Project>{730C62C0-94A6-30ED-A0CF-C3754BF35FDB}</Project>
+      <Name>OgreRTShaderSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Terrain\OgreTerrain.vcxproj">
+      <Project>{10EC894E-59BA-3EF0-8E0C-C6E629AD25B5}</Project>
+      <Name>OgreTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ogre-git\ogre\ogre\builds\Components\Volume\OgreVolume.vcxproj">
+      <Project>{F5678B55-1901-3A55-9943-CC61A5A54264}</Project>
+      <Name>OgreVolume</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

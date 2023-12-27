@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreMain_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreOverlay_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreRTShaderSystem_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreBites_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreMeshLodGenerator_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgrePaging_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreTerrain_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreVolume_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\Plugin_PCZSceneManager_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\ogre-git\ogre\ogre\builds\bin\Debug\DefaultSamples_d.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

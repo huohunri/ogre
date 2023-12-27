@@ -1,0 +1,35 @@
+﻿  cmake_pch.cxx
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据
+  OgreLodBuffer.cpp
+  OgreLodCollapseCost.cpp
+  OgreLodCollapseCostCurvature.cpp
+  OgreLodCollapseCostOutside.cpp
+  OgreLodCollapseCostProfiler.cpp
+  OgreLodCollapseCostQuadric.cpp
+  OgreLodCollapser.cpp
+  OgreLodConfig.cpp
+  OgreLodConfigSerializer.cpp
+  OgreLodData.cpp
+  OgreLodInputProvider.cpp
+  OgreLodInputProviderBuffer.cpp
+  OgreLodInputProviderMesh.cpp
+  OgreLodOutputProvider.cpp
+  OgreLodOutputProviderBuffer.cpp
+  OgreLodOutputProviderMesh.cpp
+  OgreLodOutsideMarker.cpp
+  OgreMeshLodGenerator.cpp
+  OgreSmallVector.cpp
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodInputProvider.cpp(345,128): warning C4267: “参数”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodInputProvider.cpp(349,124): warning C4267: “参数”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodOutputProviderMesh.cpp(66,40): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodInputProvider.cpp(356,124): warning C4267: “参数”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodInputProvider.cpp(360,120): warning C4267: “参数”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodOutsideMarker.cpp(472,59): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodOutsideMarker.cpp(505,56): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp(102,40): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp(103,40): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreMeshLodGenerator_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreMeshLodGenerator_d.exp
+  OgreMeshLodGenerator.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreMeshLodGenerator_d.dll

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\win32\OgreWin32Context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\win32\OgreWin32GLSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\win32\OgreWin32RenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\win32\OgreWin32Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\GLSL\OgreGLSLPreprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\GLSL\OgreGLSLProgramCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\GLSL\OgreGLSLProgramManagerCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\GLSL\OgreGLSLShaderCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLRenderSystemCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLTextureCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLDepthBufferCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLRenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLRenderToVertexBufferCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLHardwarePixelBufferCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLUniformCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLVertexArrayObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\src\OgreGLWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLDepthBufferCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLHardwarePixelBufferCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLNativeSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLPBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLRenderSystemCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLRenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLRenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLRenderToVertexBufferCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLStateCacheManagerCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLTextureCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLUniformCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLVertexArrayObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\OgreGLWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\win32\OgreWin32Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\win32\OgreWin32GLSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\win32\OgreWin32Prerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\win32\OgreWin32RenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GLSupport\include\win32\OgreWin32Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B0D8DF87-7699-3108-A903-AD04EE667C1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{579F3BE6-B2E6-3BA9-A289-00BCE0765961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

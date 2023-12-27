@@ -1,0 +1,10 @@
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/CMakeFiles/uninstall.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/CMakeFiles/INSTALL.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/CMakeFiles/ALL_BUILD.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/CMakeFiles/ZERO_CHECK.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/contrib/zlib/CMakeFiles/zlibstatic.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/contrib/zlib/CMakeFiles/INSTALL.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/code/CMakeFiles/assimp.dir
+D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/code/CMakeFiles/INSTALL.dir

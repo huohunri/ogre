@@ -1,0 +1,10 @@
+^D:\OGRE-GIT\OGRE\OGRE\BUILDS\BULLET3-3.25\SRC\LINEARMATH\CMAKELISTS.TXT
+setlocal
+E:\CMake\bin\cmake.exe -SD:/ogre-git/ogre/ogre/builds/bullet3-3.25 -BD:/ogre-git/ogre/ogre/builds/bullet3-3.25 --check-stamp-file D:/ogre-git/ogre/ogre/builds/bullet3-3.25/src/LinearMath/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

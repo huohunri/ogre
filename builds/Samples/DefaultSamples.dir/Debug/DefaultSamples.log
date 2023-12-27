@@ -1,0 +1,642 @@
+﻿  DefaultSamplesPlugin.cpp
+  CSMGpuConstants.cpp
+  ShadowCameraSetupStableCSM.cpp
+  HelperLogics.cpp
+  AmbientLight.cpp
+  DLight.cpp
+  DeferredLightCP.cpp
+  DeferredShading.cpp
+  GBufferSchemeHandler.cpp
+  GeomUtils.cpp
+  LightMaterialGenerator.cpp
+  MaterialGenerator.cpp
+  SSAOLogic.cpp
+  PerlinNoiseTerrainGenerator.cpp
+  Isosurf.cpp
+  ProceduralTools.cpp
+  MaterialControls.cpp
+  RoomObject.cpp
+  ParticleGS.cpp
+  ProceduralManualObject.cpp
+  RandomTools.cpp
+  OgreShaderExInstancedViewports.cpp
+  OgreShaderExTextureAtlasSampler.cpp
+  ShaderSystem.cpp
+  RTShaderSRSSegmentedLights.cpp
+  SegmentedDynamicLightManager.cpp
+  ShaderSystemMultiLight.cpp
+  RTShaderSRSTexturedFog.cpp
+  ShaderSystemTexturedFog.cpp
+  Compute.cpp
+  MeshLod.cpp
+  NewInstancing.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Compositor\src\HelperLogics.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\SSAOLogic.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\ShadowCameraSetupStableCSM.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\ProceduralTools.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredLightCP.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\MaterialGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\LightMaterialGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\OceanDemo\src\MaterialControls.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\RandomTools.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\GeomUtils.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\AmbientLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\PCZTestApp\src\RoomObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ProceduralManualObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\AmbientLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ProceduralManualObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\MaterialGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\ShadowCameraSetupStableCSM.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\OceanDemo\src\MaterialControls.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\LightMaterialGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\PCZTestApp\src\RoomObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredLightCP.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\MaterialGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\RandomTools.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\ProceduralTools.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Compositor\src\HelperLogics.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\SSAOLogic.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\LightMaterialGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\OceanDemo\src\MaterialControls.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\AmbientLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp)
+D:\ogre-git\ogre\ogre\Samples\OceanDemo\src\MaterialControls.cpp(115,29): warning C4101: “e”: 未引用的局部变量
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\RandomTools.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp(287,65): warning C4267: “初始化”: 从“size_t”转换到“unsigned short”，可能丢失数据
+  VolumeCSG.cpp
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DLight.cpp(73,31): warning C4305: “*=”: 从“double”到“float”截断
+  VolumeTerrain.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+  ThingRenderable.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+  VolumeRenderable.cpp
+  VolumeTex.cpp
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp(749,68): warning C4267: “=”: 从“size_t”转换到“unsigned short”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp(253,69): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Compositor\src\HelperLogics.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Compositor\src\HelperLogics.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\ShadowCameraSetupStableCSM.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\SSAOLogic.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\ProceduralTools.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+  WaterMesh.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredLightCP.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(239,84): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(240,84): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(266,61): warning C4244: “参数”: 从“Ogre::Real”转换到“size_t”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(274,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(275,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(289,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(299,23): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp(313,47): warning C4244: “参数”: 从“Ogre::Real”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\SSAOLogic.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\ShadowCameraSetupStableCSM.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\PCZTestApp\src\RoomObject.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\ProceduralTools.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredLightCP.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\PCZTestApp\src\RoomObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\ThingRenderable.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeRenderable.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\ThingRenderable.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeRenderable.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Water\src\WaterMesh.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\ThingRenderable.cpp(86,35): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\ThingRenderable.cpp(109,33): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+D:\ogre-git\ogre\ogre\Samples\Compositor\src\HelperLogics.cpp(129,52): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp(43,24): warning C4244: “初始化”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeRenderable.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\Samples\PCZTestApp\src\RoomObject.cpp(242,24): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Water\src\WaterMesh.cpp)
+D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeRenderable.cpp(147,35): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeRenderable.cpp(172,34): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
+D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp(47,41): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp(66,22): warning C4244: “初始化”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp(70,73): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp(74,91): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp(74,77): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\Samples\Isosurf\src\Isosurf.cpp(74,21): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(146,108): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(212,66): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(236,57): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(554,95): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp(114,61): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\ParticleGS\src\ParticleGS.cpp(123,38): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(660,16): warning C4305: “=”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(662,45): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(687,45): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(689,49): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(715,62): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(716,45): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(718,51): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1166,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1167,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1189,40): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1192,56): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1192,40): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1193,44): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1195,63): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1195,46): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1196,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1196,42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1199,40): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1202,62): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1202,46): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1203,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1203,42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1205,46): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1206,42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1228,56): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1228,40): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1230,65): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1232,66): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1232,40): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1233,44): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1234,65): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1236,73): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1236,46): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1237,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1237,42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1238,65): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1241,56): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1241,40): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1243,65): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1245,72): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1245,46): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1246,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1246,42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1247,65): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(183,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1249,62): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1249,46): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1250,42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1251,65): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(187,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(230,47): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\src\Compute.cpp(44,35): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\AtomicCounters.h(45,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\AtomicCounters.h(47,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\AtomicCounters.h(48,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\BSP.h(56,1): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp(188,40): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp(192,46): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp(338,52): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp(361,56): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp(392,70): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Simple\src\NewInstancing.cpp(634,33): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Bullet.h(39,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Bullet.h(41,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Bullet.h(47,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Bullet.h(55,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\CameraTrack.h(27,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\CelShading.h(63,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\CelShading.h(64,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\CelShading.h(69,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\CelShading.h(74,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\CelShading.h(78,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Character\include\SinbadCharacterController.h(180,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Character\include\SinbadCharacterController.h(299,28): warning C4244: “=”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Character\include\CharacterSample.h(101,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Compositor\include\Compositor.h(400,63): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Compositor\include\Compositor.h(403,34): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp(165,65): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp(165,34): warning C4244: “参数”: 从“size_t”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp(339,22): warning C4244: “初始化”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Compositor\include\Compositor.h(659,61): warning C4244: “=”: 从“float”转换到“Ogre::uint8”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp(417,33): warning C4244: “初始化”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Simple\src\MeshLod.cpp(417,24): warning C4244: “初始化”: 从“double”转换到“const Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\Samples\Simple\include\CubeMapping.h(36,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\CSMShadows\include\CSMShadows.h(89,51): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\CSMShadows\include\CSMShadows.h(89,39): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\CSMShadows\include\CSMShadows.h(113,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\CSMShadows\include\CSMShadows.h(115,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(162,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(166,56): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(170,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(171,37): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(181,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(191,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(195,63): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(209,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(213,56): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(216,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(217,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(241,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(254,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Dot3Bump.h(175,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DualQuaternion.h(33,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DualQuaternion.h(74,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DualQuaternion.h(78,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DualQuaternion.h(124,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DualQuaternion.h(135,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DynTex.h(14,58): warning C4244: “初始化”: 从“Ogre::Real”转换到“const unsigned int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DynTex.h(35,83): warning C4244: “参数”: 从“const unsigned int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DynTex.h(44,1): warning C4305: “-=”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\DynTex.h(161,83): warning C4244: “参数”: 从“Ogre::Real”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=Ogre::uint8
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include\EndlessWorld.h(130,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include\EndlessWorld.h(357,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include\EndlessWorld.h(364,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include\EndlessWorld.h(367,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\EndlessWorld\include\EndlessWorld.h(370,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(50,1): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(60,1): warning C4305: “=”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(75,34): warning C4244: “初始化”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(76,28): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(77,28): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(78,26): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(79,26): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(93,38): warning C4244: “=”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(95,43): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(113,28): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(114,28): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(115,26): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(116,26): warning C4244: “初始化”: 从“Ogre::Real”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(130,38): warning C4244: “=”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(133,37): warning C4244: “初始化”: 从“Ogre::Real”转换到“Ogre::uint32”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(695,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(708,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(719,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(722,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(725,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(771,75): warning C4244: “=”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(774,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(780,75): warning C4244: “=”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(783,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(789,75): warning C4244: “=”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Terrain.h(792,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Fresnel.h(128,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Fresnel.h(142,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(134,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(177,44): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(185,48): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(185,33): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(209,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(214,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(215,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(263,1): warning C4305: “初始化”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(275,1): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Grass.h(276,1): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Lighting.h(102,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Lighting.h(180,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Lighting.h(240,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Lighting.h(127,27): warning C4101: “e”: 未引用的局部变量 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\LightShafts.h(77,36): warning C4244: “初始化”: 从“uint64_t”转换到“const Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\LightShafts.h(97,75): warning C4244: “参数”: 从“uint64_t”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\LightShafts.h(128,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\LightShafts.h(132,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\LightShafts.h(137,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\LightShafts.h(177,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Water\src\WaterMesh.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Water\src\WaterMesh.cpp)
+D:\ogre-git\ogre\ogre\Samples\OceanDemo\include\OceanDemo.h(104,36): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\OceanDemo\include\OceanDemo.h(190,63): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\ParticleFX.h(41,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include\PCZTestApp.h(167,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\PCZTestApp\include\PCZTestApp.h(168,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\PBR.h(30,98): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\PBR.h(37,77): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\PBR.h(46,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\PBR.h(71,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\RectLight.h(50,1): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\RectLight.h(55,38): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\RectLight.h(55,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\RectLight.h(63,68): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\RectLight.h(63,57): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\RectLight.h(63,46): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\RectLight.h(66,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(183,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(187,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(230,47): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Shadows.h(135,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Shadows.h(173,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Shadows.h(174,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Shadows.h(180,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Shadows.h(269,94): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Shadows.h(269,85): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SkeletalAnimation.h(181,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SkeletalAnimation.h(322,1): warning C4267: “参数”: 从“size_t”转换到“unsigned short”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SkyBox.h(27,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SkyBox.h(54,44): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SkyDome.h(32,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SkyPlane.h(26,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Smoke.h(25,79): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Smoke.h(26,52): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Smoke.h(38,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SphereMapping.h(33,1): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\SSAO.h(417,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(77,38): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(79,48): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(79,38): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(80,61): warning C4244: “参数”: 从“unsigned __int64”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(85,48): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(85,38): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(86,61): warning C4244: “参数”: 从“unsigned __int64”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(87,41): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(88,61): warning C4244: “参数”: 从“unsigned __int64”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(94,52): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureArray.h(94,37): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureFX.h(48,51): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\TextureFX.h(48,33): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Transparency.h(32,58): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Simple\include\Transparency.h(35,53): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(47,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(50,53): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(138,45): warning C4244: “参数”: 从“int”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(142,33): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(141,37): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(140,33): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ] (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(201,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(202,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(203,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(204,1): warning C4305: “参数”: 从“double”到“Ogre::Real”截断 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(241,61): warning C4244: “参数”: 从“float”转换到“Ogre::uint16”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(257,25): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(330,17): warning C4244: “初始化”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\Samples\Water\include\Water.h(331,17): warning C4244: “初始化”: 从“double”转换到“Ogre::Real”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeCSG.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
+D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp(44,57): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp(51,41): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\VolumeTex\src\VolumeTex.cpp(52,37): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+D:\ogre-git\ogre\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/DefaultSamples_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/DefaultSamples_d.exp
+  DefaultSamples.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\DefaultSamples_d.dll

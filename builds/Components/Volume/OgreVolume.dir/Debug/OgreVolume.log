@@ -1,0 +1,44 @@
+﻿  OgreVolumeCSGSource.cpp
+  OgreVolumeCacheSource.cpp
+  OgreVolumeChunk.cpp
+  OgreVolumeDualGridGenerator.cpp
+  OgreVolumeGridSource.cpp
+  OgreVolumeHalfFloatGridSource.cpp
+  OgreVolumeIsoSurface.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeChunk.cpp)
+  OgreVolumeIsoSurfaceMC.cpp
+  OgreVolumeMeshBuilder.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeChunk.cpp)
+  OgreVolumeOctreeNode.cpp
+  OgreVolumeOctreeNodeSplitPolicy.cpp
+  OgreVolumeSimplexNoise.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeGridSource.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeDualGridGenerator.cpp)
+  OgreVolumeSource.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeHalfFloatGridSource.cpp)
+  OgreVolumeTextureSource.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeDualGridGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeIsoSurfaceMC.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeHalfFloatGridSource.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeMeshBuilder.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeChunk.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeOctreeNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeMeshBuilder.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeIsoSurfaceMC.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeHalfFloatGridSource.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeOctreeNode.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeDualGridGenerator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeTextureSource.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeSource.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeChunk.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeSource.cpp)
+D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeDualGridGenerator.cpp(517,62): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeDualGridGenerator.cpp(518,62): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeOctreeNode.cpp)
+D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeTextureSource.cpp(68,45): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeMeshBuilder.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeSource.cpp)
+D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeMeshBuilder.cpp(80,61): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\Volume\src\OgreVolumeMeshBuilder.cpp(118,58): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreVolume_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreVolume_d.exp
+  OgreVolume.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreVolume_d.dll

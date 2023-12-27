@@ -1,0 +1,457 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/12/4 1:13:15。
+      节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\3.28.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\3.28.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\3.28.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.50
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/3.28.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ppjw6e"
+      binary: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ppjw6e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ppjw6e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" cmTC_0cddd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/12/4 1:13:16。
+        节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ppjw6e\\cmTC_0cddd.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0cddd.dir\\Debug\\”。
+          正在创建目录“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ppjw6e\\Debug\\”。
+          正在创建目录“cmTC_0cddd.dir\\Debug\\cmTC_0cddd.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0cddd.dir\\Debug\\cmTC_0cddd.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cddd.dir\\Debug\\\\" /Fd"cmTC_0cddd.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30153 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cddd.dir\\Debug\\\\" /Fd"cmTC_0cddd.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ppjw6e\\Debug\\cmTC_0cddd.exe" /INCREMENTAL /ILK:"cmTC_0cddd.dir\\Debug\\cmTC_0cddd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ppjw6e/Debug/cmTC_0cddd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ppjw6e/Debug/cmTC_0cddd.lib" /MACHINE:X64  /machine:x64 cmTC_0cddd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0cddd.vcxproj -> D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ppjw6e\\Debug\\cmTC_0cddd.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_0cddd.dir\\Debug\\cmTC_0cddd.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_0cddd.dir\\Debug\\cmTC_0cddd.tlog\\cmTC_0cddd.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ppjw6e\\cmTC_0cddd.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:20 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-hwlts7"
+      binary: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-hwlts7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-hwlts7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" cmTC_b68ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/12/4 1:13:16。
+        节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-hwlts7\\cmTC_b68ee.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b68ee.dir\\Debug\\”。
+          正在创建目录“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-hwlts7\\Debug\\”。
+          正在创建目录“cmTC_b68ee.dir\\Debug\\cmTC_b68ee.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b68ee.dir\\Debug\\cmTC_b68ee.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b68ee.dir\\Debug\\\\" /Fd"cmTC_b68ee.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-hwlts7\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30153 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b68ee.dir\\Debug\\\\" /Fd"cmTC_b68ee.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-hwlts7\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-hwlts7\\Debug\\cmTC_b68ee.exe" /INCREMENTAL /ILK:"cmTC_b68ee.dir\\Debug\\cmTC_b68ee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-hwlts7/Debug/cmTC_b68ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-hwlts7/Debug/cmTC_b68ee.lib" /MACHINE:X64  /machine:x64 cmTC_b68ee.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b68ee.vcxproj -> D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-hwlts7\\Debug\\cmTC_b68ee.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_b68ee.dir\\Debug\\cmTC_b68ee.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b68ee.dir\\Debug\\cmTC_b68ee.tlog\\cmTC_b68ee.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-hwlts7\\cmTC_b68ee.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:21 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-jly4wd"
+      binary: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-jly4wd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-jly4wd'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" cmTC_e99eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/12/4 1:13:17。
+        节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-jly4wd\\cmTC_e99eb.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e99eb.dir\\Debug\\”。
+          正在创建目录“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-jly4wd\\Debug\\”。
+          正在创建目录“cmTC_e99eb.dir\\Debug\\cmTC_e99eb.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e99eb.dir\\Debug\\cmTC_e99eb.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e99eb.dir\\Debug\\\\" /Fd"cmTC_e99eb.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-jly4wd\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30153 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e99eb.dir\\Debug\\\\" /Fd"cmTC_e99eb.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-jly4wd\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-jly4wd\\Debug\\cmTC_e99eb.exe" /INCREMENTAL /ILK:"cmTC_e99eb.dir\\Debug\\cmTC_e99eb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-jly4wd/Debug/cmTC_e99eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-jly4wd/Debug/cmTC_e99eb.lib" /MACHINE:X64  /machine:x64 cmTC_e99eb.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_e99eb.vcxproj -> D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-jly4wd\\Debug\\cmTC_e99eb.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e99eb.dir\\Debug\\cmTC_e99eb.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e99eb.dir\\Debug\\cmTC_e99eb.tlog\\cmTC_e99eb.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-jly4wd\\cmTC_e99eb.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:22 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-zhit5b"
+      binary: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-zhit5b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-zhit5b'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" cmTC_d06c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/12/4 1:13:18。
+        节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-zhit5b\\cmTC_d06c8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d06c8.dir\\Debug\\”。
+          正在创建目录“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-zhit5b\\Debug\\”。
+          正在创建目录“cmTC_d06c8.dir\\Debug\\cmTC_d06c8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d06c8.dir\\Debug\\cmTC_d06c8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d06c8.dir\\Debug\\\\" /Fd"cmTC_d06c8.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-zhit5b\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30153 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d06c8.dir\\Debug\\\\" /Fd"cmTC_d06c8.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-zhit5b\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-zhit5b\\Debug\\cmTC_d06c8.exe" /INCREMENTAL /ILK:"cmTC_d06c8.dir\\Debug\\cmTC_d06c8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-zhit5b/Debug/cmTC_d06c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-zhit5b/Debug/cmTC_d06c8.lib" /MACHINE:X64  /machine:x64 cmTC_d06c8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d06c8.vcxproj -> D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-zhit5b\\Debug\\cmTC_d06c8.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d06c8.dir\\Debug\\cmTC_d06c8.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d06c8.dir\\Debug\\cmTC_d06c8.tlog\\cmTC_d06c8.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-zhit5b\\cmTC_d06c8.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "E:/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:40 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-0kcs6z"
+      binary: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-0kcs6z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-0kcs6z'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" cmTC_61bb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/12/4 1:13:18。
+        节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_61bb9.dir\\Debug\\”。
+          正在创建目录“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\Debug\\”。
+          正在创建目录“cmTC_61bb9.dir\\Debug\\cmTC_61bb9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_61bb9.dir\\Debug\\cmTC_61bb9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61bb9.dir\\Debug\\\\" /Fd"cmTC_61bb9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30153 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OFF64_T.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61bb9.dir\\Debug\\\\" /Fd"cmTC_61bb9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c"
+        D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+        D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+        D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+        D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+        D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+        已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+          D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+          D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+          D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+          D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-0kcs6z\\cmTC_61bb9.vcxproj]
+        
+            0 个警告
+            5 个错误
+        
+        已用时间 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:49 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-za8jd0"
+      binary: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-za8jd0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-za8jd0'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" cmTC_e3a8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/12/4 1:13:18。
+        节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\cmTC_e3a8b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e3a8b.dir\\Debug\\”。
+          正在创建目录“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\Debug\\”。
+          正在创建目录“cmTC_e3a8b.dir\\Debug\\cmTC_e3a8b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e3a8b.dir\\Debug\\cmTC_e3a8b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3a8b.dir\\Debug\\\\" /Fd"cmTC_e3a8b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30153 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3a8b.dir\\Debug\\\\" /Fd"cmTC_e3a8b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\Debug\\cmTC_e3a8b.exe" /INCREMENTAL /ILK:"cmTC_e3a8b.dir\\Debug\\cmTC_e3a8b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-za8jd0/Debug/cmTC_e3a8b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-za8jd0/Debug/cmTC_e3a8b.lib" /MACHINE:X64  /machine:x64 cmTC_e3a8b.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\cmTC_e3a8b.vcxproj]
+        D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\Debug\\cmTC_e3a8b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\cmTC_e3a8b.vcxproj]
+        已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\cmTC_e3a8b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\cmTC_e3a8b.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\cmTC_e3a8b.vcxproj]
+          D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\Debug\\cmTC_e3a8b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-za8jd0\\cmTC_e3a8b.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:57 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ij35vq"
+      binary: "D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ij35vq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/CMakeScratch/TryCompile-ij35vq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe" cmTC_1ed64.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/12/4 1:13:19。
+        节点 1 上的项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\cmTC_1ed64.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1ed64.dir\\Debug\\”。
+          正在创建目录“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\Debug\\”。
+          正在创建目录“cmTC_1ed64.dir\\Debug\\cmTC_1ed64.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1ed64.dir\\Debug\\cmTC_1ed64.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ed64.dir\\Debug\\\\" /Fd"cmTC_1ed64.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30153 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ed64.dir\\Debug\\\\" /Fd"cmTC_1ed64.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\CheckIncludeFile.c"
+        D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\cmTC_1ed64.vcxproj]
+        已完成生成项目“D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\cmTC_1ed64.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\cmTC_1ed64.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\ogre-git\\ogre\\ogre\\builds\\zlib-1.3\\CMakeFiles\\CMakeScratch\\TryCompile-ij35vq\\cmTC_1ed64.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.23
+        
+      exitCode: 1
+...

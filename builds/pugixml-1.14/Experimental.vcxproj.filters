@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ogre-git\ogre\ogre\builds\pugixml-1.14\CMakeFiles\ec48b93430d3b6011e98682ab902b5e2\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\ogre-git\ogre\ogre\builds\pugixml-1.14\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\ogre-git\ogre\ogre\builds\pugixml-1.14\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FDF4E15C-0267-3584-8E05-CF9E4D75F588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

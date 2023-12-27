@@ -1,0 +1,11 @@
+prefix=D:/ogre-git/ogre/ogre/builds/Dependencies
+exec_prefix=${prefix}
+includedir=D:/ogre-git/ogre/ogre/builds/Dependencies/include
+libdir=D:/ogre-git/ogre/ogre/builds/Dependencies/lib
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: https://pugixml.org/
+Version: 1.14
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpugixml

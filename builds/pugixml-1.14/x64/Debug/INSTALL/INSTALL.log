@@ -1,0 +1,10 @@
+﻿  1>
+  -- Install configuration: "Debug"
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/pugixml.lib
+  -- Up-to-date: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-targets.cmake
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-targets-debug.cmake
+  -- Up-to-date: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-config-version.cmake
+  -- Up-to-date: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-config.cmake
+  -- Up-to-date: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/pkgconfig/pugixml.pc
+  -- Up-to-date: D:/ogre-git/ogre/ogre/builds/Dependencies/include/pugiconfig.hpp
+  -- Up-to-date: D:/ogre-git/ogre/ogre/builds/Dependencies/include/pugixml.hpp

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/ogre-git/ogre/ogre/builds/bullet3-3.25/src/Bullet3Common/CMakeLists.txt
+  b3AlignedAllocator.cpp
+  b3Vector3.cpp
+  b3Logging.cpp
+  正在生成代码...
+  Bullet3Common.vcxproj -> D:\ogre-git\ogre\ogre\builds\bullet3-3.25\lib\Debug\Bullet3Common_Debug.lib

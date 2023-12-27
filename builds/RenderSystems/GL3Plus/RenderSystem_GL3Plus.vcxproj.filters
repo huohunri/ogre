@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLExtSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLMonolithicProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusEngineDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFBOMultiRenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFBORenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFrameBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBufferManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareOcclusionQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwarePixelBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPixelFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderToVertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\OgreSPIRVShaderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\gl3w.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusFBOMultiRenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusFBORenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusFrameBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwareBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwareBufferManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwareOcclusionQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusHardwarePixelBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusPixelFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusRenderSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusRenderToVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusStateCacheManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusTextureBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreGL3PlusTextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\include\OgreSPIRVShaderFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\include\OgreGL3PlusExports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLExtSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLMonolithicProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLProgramManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLSeparableProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\RenderSystems\GL3Plus\src\GLSL\include\OgreGLSLShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B0D8DF87-7699-3108-A903-AD04EE667C1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{579F3BE6-B2E6-3BA9-A289-00BCE0765961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

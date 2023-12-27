@@ -1,0 +1,26 @@
+﻿  1>
+  -- Install configuration: "Debug"
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/assimp-5.3/assimpConfig.cmake
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/assimp-5.3/assimpConfigVersion.cmake
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/assimp-5.3/assimpTargets.cmake
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/assimp-5.3/assimpTargets-debug.cmake
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/pkgconfig/assimp.pc
+  -- Installing: D:/ogre-git/ogre/ogre/builds/Dependencies/lib/zlibstaticd.lib
+  CMake Error at code/cmake_install.cmake:37 (file):
+    file INSTALL cannot find
+    "D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/lib/Debug/assimp-vc142-mtd.lib":
+    File exists.
+  Call Stack (most recent call first):
+    cmake_install.cmake:81 (include)
+  
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: 命令“setlocal
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: E:\CMake\bin\cmake.exe -DBUILD_TYPE=Debug -P cmake_install.cmake
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :cmEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :cmErrorLevel
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: exit /b %1
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :cmDone
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :VCEnd”已退出，代码为 1。

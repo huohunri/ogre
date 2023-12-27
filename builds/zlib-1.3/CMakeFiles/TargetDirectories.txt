@@ -1,0 +1,8 @@
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/zlib.dir
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/zlibstatic.dir
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/example.dir
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/minigzip.dir
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/RUN_TESTS.dir
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/INSTALL.dir
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/ALL_BUILD.dir
+D:/ogre-git/ogre/ogre/builds/zlib-1.3/CMakeFiles/ZERO_CHECK.dir

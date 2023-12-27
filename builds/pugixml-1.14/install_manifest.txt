@@ -1,0 +1,8 @@
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/pugixml.lib
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-targets.cmake
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-targets-debug.cmake
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-config-version.cmake
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/cmake/pugixml/pugixml-config.cmake
+D:/ogre-git/ogre/ogre/builds/Dependencies/lib/pkgconfig/pugixml.pc
+D:/ogre-git/ogre/ogre/builds/Dependencies/include/pugiconfig.hpp
+D:/ogre-git/ogre/ogre/builds/Dependencies/include/pugixml.hpp

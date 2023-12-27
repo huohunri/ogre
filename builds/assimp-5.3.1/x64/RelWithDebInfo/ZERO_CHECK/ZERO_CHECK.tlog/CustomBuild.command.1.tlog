@@ -1,0 +1,10 @@
+^D:\OGRE-GIT\OGRE\OGRE\BUILDS\ASSIMP-5.3.1\CMAKEFILES\9FDBDBA74879454276F6355FF2BFAED0\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe -SD:/ogre-git/ogre/ogre/builds/assimp-5.3.1 -BD:/ogre-git/ogre/ogre/builds/assimp-5.3.1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ogre-git/ogre/ogre/builds/assimp-5.3.1/Assimp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

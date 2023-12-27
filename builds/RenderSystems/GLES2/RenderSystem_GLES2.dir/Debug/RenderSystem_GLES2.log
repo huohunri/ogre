@@ -1,0 +1,115 @@
+﻿  OgreGLES2EngineDll.cpp
+  OgreGLES2FBOMultiRenderTarget.cpp
+  OgreGLES2FBORenderTexture.cpp
+  OgreGLES2FrameBufferObject.cpp
+  OgreGLES2HardwareBuffer.cpp
+  OgreGLES2HardwareBufferManager.cpp
+  OgreGLES2HardwareOcclusionQuery.cpp
+  OgreGLES2HardwarePixelBuffer.cpp
+  OgreGLES2ManagedResource.cpp
+  OgreGLES2ManagedResourceManager.cpp
+  OgreGLES2PixelFormat.cpp
+  OgreGLES2Plugin.cpp
+  OgreGLES2RenderSystem.cpp
+  OgreGLES2RenderToVertexBuffer.cpp
+  OgreGLES2StateCacheManager.cpp
+  OgreGLES2Texture.cpp
+  OgreGLES2TextureManager.cpp
+  OgreGLSLESExtSupport.cpp
+  OgreGLSLESLinkProgram.cpp
+  OgreGLSLESProgram.cpp
+  OgreGLSLESProgramCommon.cpp
+  OgreGLSLESProgramManager.cpp
+  OgreGLSLESProgramPipeline.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2FBOMultiRenderTarget.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2PixelFormat.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2StateCacheManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2Plugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2EngineDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2FBORenderTexture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwarePixelBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2Texture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2FrameBufferObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareOcclusionQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESExtSupport.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramCommon.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2TextureManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2PixelFormat.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderToVertexBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2EngineDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2ManagedResource.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2Texture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBufferManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderToVertexBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2Plugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramPipeline.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESLinkProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwarePixelBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramCommon.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2FBORenderTexture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2StateCacheManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareOcclusionQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderToVertexBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESLinkProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2PixelFormat.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESExtSupport.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2ManagedResource.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramPipeline.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2EngineDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2Plugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2FrameBufferObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2TextureManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBufferManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2FBORenderTexture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwarePixelBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareOcclusionQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESExtSupport.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2FrameBufferObject.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2Texture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramCommon.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2TextureManager.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderToVertexBuffer.cpp(177,13): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2StateCacheManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBufferManager.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwarePixelBuffer.cpp(216,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwarePixelBuffer.cpp(227,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwarePixelBuffer.cpp(240,17): warning C4267: “参数”: 从“size_t”转换到“GLint”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwarePixelBuffer.cpp(249,17): warning C4267: “参数”: 从“size_t”转换到“GLint”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESLinkProgram.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2StateCacheManager.cpp(236,9): warning C4267: “参数”: 从“size_t”转换到“GLenum”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\GLSLES\src\OgreGLSLESProgramPipeline.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(68,9): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(100,21): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(107,13): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(107,13): warning C4267: “参数”: 从“size_t”转换到“GLintptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(149,9): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(149,9): warning C4267: “参数”: 从“size_t”转换到“GLintptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(180,13): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(186,17): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(189,13): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(189,13): warning C4267: “参数”: 从“size_t”转换到“GLintptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(209,9): warning C4267: “参数”: 从“size_t”转换到“GLsizeiptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2HardwareBuffer.cpp(209,9): warning C4267: “参数”: 从“size_t”转换到“GLintptr”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderSystem.cpp(781,76): warning C4244: “参数”: 从“Ogre::Real”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=Ogre::uint
+          ]
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderSystem.cpp(1599,27): warning C4101: “e”: 未引用的局部变量
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\OgreGLES2RenderSystem.cpp(1744,62): warning C4267: “参数”: 从“size_t”转换到“GLint”，可能丢失数据
+  glesw.c
+D:\ogre-git\ogre\ogre\RenderSystems\GLES2\src\glesw.c(131,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/RenderSystem_GLES2_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/RenderSystem_GLES2_d.exp
+  RenderSystem_GLES2.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\RenderSystem_GLES2_d.dll

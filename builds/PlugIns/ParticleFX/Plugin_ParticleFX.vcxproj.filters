@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreAreaEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreBoxEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreColourFaderAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreColourFaderAffector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreColourImageAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreColourInterpolatorAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreCylinderEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreDeflectorPlaneAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreDirectionRandomiserAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreEllipsoidEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreHollowEllipsoidEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreLinearForceAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreParticleFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreParticleFXPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgrePointEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreRingEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreRotationAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreScaleAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\src\OgreTextureAnimatorAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreAreaEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreBoxEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreColourFaderAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreColourFaderAffector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreColourImageAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreColourInterpolatorAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreCylinderEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreDeflectorPlaneAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreDirectionRandomiserAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreEllipsoidEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreHollowEllipsoidEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreLinearForceAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreParticleFXPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgrePointEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreRingEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreRotationAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreScaleAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\PlugIns\ParticleFX\include\OgreTextureAnimatorAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ogre-git\ogre\ogre\builds\include\OgreParticleFXPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B0D8DF87-7699-3108-A903-AD04EE667C1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{579F3BE6-B2E6-3BA9-A289-00BCE0765961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

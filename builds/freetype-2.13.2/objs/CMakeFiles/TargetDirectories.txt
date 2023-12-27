@@ -1,0 +1,5 @@
+D:/ogre-git/ogre/ogre/builds/freetype-2.13.2/objs/CMakeFiles/freetype.dir
+D:/ogre-git/ogre/ogre/builds/freetype-2.13.2/objs/CMakeFiles/PACKAGE.dir
+D:/ogre-git/ogre/ogre/builds/freetype-2.13.2/objs/CMakeFiles/INSTALL.dir
+D:/ogre-git/ogre/ogre/builds/freetype-2.13.2/objs/CMakeFiles/ALL_BUILD.dir
+D:/ogre-git/ogre/ogre/builds/freetype-2.13.2/objs/CMakeFiles/ZERO_CHECK.dir

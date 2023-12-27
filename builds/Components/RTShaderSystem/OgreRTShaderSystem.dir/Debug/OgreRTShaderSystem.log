@@ -1,0 +1,64 @@
+﻿  cmake_pch.cxx
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,43): warning C4267: “return”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  OgreShaderCGProgramWriter.cpp
+  OgreShaderCookTorranceLighting.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderCookTorranceLighting.cpp(172,51): warning C4244: “=”: 从“Ogre::uint16”转换到“Ogre::int8”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderCookTorranceLighting.cpp(178,64): warning C4267: “=”: 从“size_t”转换到“Ogre::uint8”，可能丢失数据
+  OgreShaderExDualQuaternionSkinning.cpp
+  OgreShaderExGBuffer.cpp
+  OgreShaderExHardwareSkinning.cpp
+  OgreShaderExHardwareSkinningTechnique.cpp
+  OgreShaderExIntegratedPSSM3.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExIntegratedPSSM3.cpp(138,72): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  OgreShaderExLayeredBlending.cpp
+  OgreShaderExLinearSkinning.cpp
+  OgreShaderExNormalMapLighting.cpp
+  OgreShaderExPerPixelLighting.cpp
+  OgreShaderExTriplanarTexturing.cpp
+  OgreShaderExWBOIT.cpp
+  OgreShaderFFPAlphaTest.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExTriplanarTexturing.cpp(136,75): warning C4267: “=”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExTriplanarTexturing.cpp(140,75): warning C4267: “=”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExTriplanarTexturing.cpp(144,75): warning C4267: “=”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+  OgreShaderFFPColour.cpp
+  OgreShaderFFPFog.cpp
+  OgreShaderFFPLighting.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderExNormalMapLighting.cpp(226,71): warning C4267: “初始化”: 从“size_t”转换到“Ogre::uint16”，可能丢失数据
+  OgreShaderFFPTexturing.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPLighting.cpp(324,47): warning C4267: “return”: 从“size_t”转换到“Ogre::uint16”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFFPLighting.cpp(353,45): warning C4244: “=”: 从“Ogre::uint16”转换到“Ogre::int8”，可能丢失数据
+  OgreShaderFFPTransform.cpp
+  OgreShaderFunction.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderFunction.cpp(414,90): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  OgreShaderFunctionAtom.cpp
+  OgreShaderGLSLESProgramWriter.cpp
+  OgreShaderGLSLProgramWriter.cpp
+  OgreShaderGenerator.cpp
+  OgreShaderImageBasedLighting.cpp
+  OgreShaderMaterialSerializerListener.cpp
+  OgreShaderParameter.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderGLSLProgramWriter.cpp(174,69): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  OgreShaderProgram.cpp
+  OgreShaderProgramManager.cpp
+  OgreShaderProgramProcessor.cpp
+  OgreShaderProgramSet.cpp
+  OgreShaderProgramWriter.cpp
+  OgreShaderProgramWriterManager.cpp
+  OgreShaderRenderState.cpp
+  OgreShaderScriptTranslator.cpp
+  OgreShaderSubRenderState.cpp
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderImageBasedLighting.cpp(56,65): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderImageBasedLighting.cpp(61,65): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderGenerator.cpp(928,5): warning C4267: “初始化”: 从“size_t”转换到“unsigned short”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderGenerator.cpp(957,84): warning C4267: “初始化”: 从“size_t”转换到“unsigned short”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\RTShaderSystem\src\OgreShaderGenerator.cpp(1734,49): warning C4267: “初始化”: 从“size_t”转换到“Ogre::int32”，可能丢失数据
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreRTShaderSystem_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreRTShaderSystem_d.exp
+  OgreRTShaderSystem.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreRTShaderSystem_d.dll

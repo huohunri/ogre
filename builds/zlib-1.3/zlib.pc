@@ -1,0 +1,13 @@
+prefix=D:/ogre-git/ogre/ogre/builds/Dependencies
+exec_prefix=D:/ogre-git/ogre/ogre/builds/Dependencies
+libdir=D:/ogre-git/ogre/ogre/builds/Dependencies/lib
+sharedlibdir=D:/ogre-git/ogre/ogre/builds/Dependencies/lib
+includedir=D:/ogre-git/ogre/ogre/builds/Dependencies/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,81 @@
+﻿  OgreBorderPanelOverlayElement.cpp
+  OgreFont.cpp
+  OgreFontManager.cpp
+  OgreImGuiOverlay.cpp
+  OgreOverlay.cpp
+  OgreOverlayContainer.cpp
+  OgreOverlayElement.cpp
+  OgreOverlayElementCommands.cpp
+  OgreOverlayManager.cpp
+  OgreOverlayProfileSessionListener.cpp
+  OgreOverlaySystem.cpp
+  OgreOverlayTranslator.cpp
+  OgrePanelOverlayElement.cpp
+  OgreTextAreaOverlayElement.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_demo.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreFont.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreBorderPanelOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreFontManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayElementCommands.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlay.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreTextAreaOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlaySystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgrePanelOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayContainer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayTranslator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayProfileSessionListener.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreBorderPanelOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlay.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreTextAreaOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayElementCommands.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgrePanelOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayProfileSessionListener.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayTranslator.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlaySystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayContainer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreFont.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgrePanelOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreFont.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreOverlaySystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreTextAreaOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreFont.cpp(409,28): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreBorderPanelOverlayElement.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp)
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp(56,70): warning C4244: “参数”: 从“Ogre::ulong”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp(112,53): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp(110,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp(213,44): warning C4244: “参数”: 从“const float”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp(212,85): warning C4244: “参数”: 从“const float”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp(212,64): warning C4244: “参数”: 从“const float”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreImGuiOverlay.cpp(212,43): warning C4244: “参数”: 从“const float”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreTextAreaOverlayElement.cpp(119,27): warning C4305: “=”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\Components\Overlay\src\OgreTextAreaOverlayElement.cpp(237,56): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreOverlay_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreOverlay_d.exp
+  OgreOverlay.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreOverlay_d.dll

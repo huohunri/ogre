@@ -1,0 +1,10 @@
+^D:\OGRE-GIT\OGRE\OGRE\BUILDS\ASSIMP-5.3.1\CMAKEFILES\9FDBDBA74879454276F6355FF2BFAED0\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

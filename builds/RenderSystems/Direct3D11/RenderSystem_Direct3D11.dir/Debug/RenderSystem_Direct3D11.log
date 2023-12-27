@@ -1,0 +1,116 @@
+﻿  OgreD3D11DepthBuffer.cpp
+  OgreD3D11Device.cpp
+  OgreD3D11DeviceResource.cpp
+  OgreD3D11Driver.cpp
+  OgreD3D11DriverList.cpp
+  OgreD3D11EngineDll.cpp
+  OgreD3D11HLSLProgram.cpp
+  OgreD3D11HLSLProgramFactory.cpp
+  OgreD3D11HardwareBuffer.cpp
+  OgreD3D11HardwareBufferManager.cpp
+  OgreD3D11HardwareOcclusionQuery.cpp
+  OgreD3D11HardwarePixelBuffer.cpp
+  OgreD3D11Mappings.cpp
+  OgreD3D11MultiRenderTarget.cpp
+  OgreD3D11Plugin.cpp
+  OgreD3D11RenderSystem.cpp
+  OgreD3D11RenderToVertexBuffer.cpp
+  OgreD3D11RenderWindow.cpp
+  OgreD3D11StereoDriverAMD.cpp
+  OgreD3D11StereoDriverBridge.cpp
+  OgreD3D11StereoDriverNVIDIA.cpp
+  OgreD3D11Texture.cpp
+  OgreD3D11TextureManager.cpp
+  OgreD3D11VertexDeclaration.cpp
+  OgreD3D11VideoMode.cpp
+  OgreD3D11VideoModeList.cpp
+  OgreMonitorInfo.cpp
+  OgreNsightChecker.cpp
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11EngineDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11EngineDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11EngineDll.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11DepthBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11DriverList.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Driver.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareOcclusionQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgramFactory.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11MultiRenderTarget.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderWindow.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Plugin.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Device.cpp(132,72): warning C4267: “=”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11DepthBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBufferManager.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreNsightChecker.cpp(31,7): warning C4996: 'GetVersionExA': 被声明为已否决
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareOcclusionQuery.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderToVertexBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgramFactory.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11TextureManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp(205,52): warning C4267: “=”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11MultiRenderTarget.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBufferManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Plugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderWindow.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderToVertexBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderToVertexBuffer.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp(152,56): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderWindow.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11TextureManager.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Plugin.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11MultiRenderTarget.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11TextureManager.cpp)
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(564,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(565,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(566,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(567,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(568,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(569,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(570,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(571,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(572,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(573,17): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(694,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(731,57): warning C4267: “初始化”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1048,46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1504,61): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(303,105): warning C4244: “参数”: 从“__int64”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(313,98): warning C4244: “参数”: 从“__int64”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(211,17): warning C4101: “hr”: 未引用的局部变量
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(311,17): warning C4101: “hr”: 未引用的局部变量
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(428,17): warning C4101: “hr”: 未引用的局部变量
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(498,22): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(1934,118): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(1936,119): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2334,107): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2344,107): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2354,107): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2364,107): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2374,107): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2384,107): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2767,160): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2787,160): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(71,5): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(81,90): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(320,90): warning C4267: “初始化”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(321,106): warning C4267: “初始化”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\ogre-git\ogre\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(438,118): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/RenderSystem_Direct3D11_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/RenderSystem_Direct3D11_d.exp
+  RenderSystem_Direct3D11.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\RenderSystem_Direct3D11_d.dll

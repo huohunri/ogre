@@ -1,0 +1,443 @@
+﻿  cmake_pch.cxx
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreCommon.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreGpuProgramParams.h(678,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreWorkQueue.h(194,91): warning C4244: “参数”: 从“Ogre::uint64”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgrePass.h(643,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  OgreASTCCodec.cpp
+  OgreAlignedAllocator.cpp
+  OgreAnimable.cpp
+  OgreAnimation.cpp
+  OgreAnimationState.cpp
+  OgreAnimationTrack.cpp
+  OgreArchive.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(57,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(59,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(61,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(63,24): warning C4305: “return”: 从“double”到“float”截断
+  OgreArchiveManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(65,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(67,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(71,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(73,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(75,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(77,24): warning C4305: “return”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(79,24): warning C4305: “return”: 从“double”到“float”截断
+  OgreAutoParamDataSource.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreASTCCodec.cpp(81,24): warning C4305: “return”: 从“double”到“float”截断
+  OgreAxisAlignedBox.cpp
+  OgreBillboard.cpp
+  OgreBillboardChain.cpp
+  OgreBillboardParticleRenderer.cpp
+  OgreBillboardSet.cpp
+  OgreBone.cpp
+  OgreCamera.cpp
+  OgreCodec.cpp
+  OgreColourValue.cpp
+  OgreCommon.cpp
+  OgreCompositionPass.cpp
+  OgreCompositionTargetPass.cpp
+  OgreCompositionTechnique.cpp
+  OgreCompositor.cpp
+  OgreCompositorChain.cpp
+  OgreCompositorInstance.cpp
+  OgreCompositorManager.cpp
+  OgreConfigFile.cpp
+  OgreControllerManager.cpp
+  OgreConvexBody.cpp
+  OgreDataStream.cpp
+  OgreDefaultDebugDrawer.cpp
+  OgreDefaultHardwareBufferManager.cpp
+  OgreDefaultSceneQueries.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(46,46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(61,46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(104,27): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(105,28): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(106,30): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(107,29): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(109,30): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+  OgreDefaultWorkQueueStandard.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(111,29): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Ogre::Real
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(114,51): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(114,78): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(114,105): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDefaultDebugDrawer.cpp(131,52): warning C4267: “初始化”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreDeflate.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardSet.cpp(172,38): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  OgreDepthBuffer.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardSet.cpp(568,49): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardSet.cpp(570,53): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardSet.cpp(601,51): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreDistanceLodStrategy.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardChain.cpp(72,5): warning C4267: “初始化”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardChain.cpp(95,64): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreConvexBody.cpp(508,20): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardChain.cpp(173,43): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardChain.cpp(180,32): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDeflate.cpp(412,34): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardParticleRenderer.cpp(105,98): warning C4244: “参数”: 从“Ogre::Real”转换到“Ogre::uchar”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreBillboardParticleRenderer.cpp(105,91): warning C4244: “参数”: 从“Ogre::Real”转换到“Ogre::uchar”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\include\OgreMath.h(409,33): warning C4244: “return”: 从“T”转换到“V”，可能丢失数据
+          with
+          [
+              T=Ogre::Real
+          ]
+          and
+          [
+              V=int
+          ] (编译源文件 D:\ogre-git\ogre\ogre\OgreMain\src\OgreAnimationTrack.cpp)
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreAnimationTrack.cpp(242): message : 查看对正在编译的函数 模板 实例化“V Ogre::Math::lerp<ValueType,Ogre::Real>(const V &,const V &,const T &)”的引用
+          with
+          [
+              V=int,
+              ValueType=int,
+              T=Ogre::Real
+          ]
+  OgreDualQuaternion.cpp
+  OgreDynLib.cpp
+  OgreDynLibManager.cpp
+  OgreEdgeListBuilder.cpp
+  OgreEntity.cpp
+  OgreException.cpp
+  OgreExternalTextureSource.cpp
+  OgreExternalTextureSourceManager.cpp
+  OgreFrustum.cpp
+  OgreGpuProgram.cpp
+  OgreGpuProgramManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreFrustum.cpp(36,60): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+  OgreGpuProgramParams.cpp
+  OgreGpuProgramUsage.cpp
+  OgreHardwareBufferManager.cpp
+  OgreHardwareIndexBuffer.cpp
+  OgreHardwareOcclusionQuery.cpp
+  OgreHardwarePixelBuffer.cpp
+  OgreHardwareVertexBuffer.cpp
+  OgreHighLevelGpuProgram.cpp
+  OgreImage.cpp
+  OgreInstanceBatch.cpp
+  OgreInstanceBatchHW.cpp
+  OgreInstanceBatchHW_VTF.cpp
+  OgreInstanceBatchShader.cpp
+  OgreInstanceBatchVTF.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreHardwareIndexBuffer.cpp(44,5): warning C4267: “初始化”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreHardwareIndexBuffer.cpp(46,40): warning C4267: “=”: 从“size_t”转换到“Ogre::uint8”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreHardwareVertexBuffer.cpp(45,5): warning C4267: “初始化”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreInstanceManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchHW_VTF.cpp(62,64): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchHW.cpp(203,73): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchHW.cpp(218,15): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreInstancedEntity.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreHardwareVertexBuffer.cpp(90,40): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreKeyFrame.cpp
+  OgreLight.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreGpuProgramParams.cpp(1017,23): warning C4244: “初始化”: 从“const double”转换到“float”，可能丢失数据
+  OgreLodStrategy.cpp
+  OgreLodStrategyManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchShader.cpp(131,87): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchShader.cpp(212,83): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreGpuProgramParams.cpp(1417,102): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint8”，可能丢失数据
+  OgreLog.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreGpuProgramParams.cpp(1537,98): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint8”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchHW_VTF.cpp(512,74): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchHW_VTF.cpp(521,15): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreGpuProgramParams.cpp(2214,30): warning C4267: “*=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreLogManager.cpp
+  OgreManualObject.cpp
+  OgreMaterial.cpp
+  OgreMaterialManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceManager.cpp(535,59): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceManager.cpp(582,79): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceManager.cpp(584,79): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreMaterialSerializer.cpp
+  OgreMath.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchVTF.cpp(459,87): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreCompositorInstance.cpp(670,85): warning C4244: “=”: 从“float”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreCompositorInstance.cpp(675,87): warning C4244: “=”: 从“float”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreInstanceBatchVTF.cpp(542,83): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreMatrix3.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMath.cpp(214,56): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMath.cpp(221,56): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMath.cpp(234,56): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMath.cpp(262,56): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMath.cpp(269,56): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMath.cpp(282,56): warning C4305: “参数”: 从“double”到“Ogre::Real”截断
+  OgreMatrix4.cpp
+  OgreMesh.cpp
+  OgreMeshManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMaterialSerializer.cpp(67,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMaterialSerializer.cpp(87,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreLog.cpp(73,21): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreLog.cpp(80,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreLog.cpp(140,33): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMatrix3.cpp(34,40): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMatrix3.cpp(657,39): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMatrix3.cpp(658,36): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+  OgreMeshSerializer.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMeshManager.cpp(65,5): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+  OgreMeshSerializerImpl.cpp
+  OgreMovableObject.cpp
+  OgreMovablePlane.cpp
+  OgreMurmurHash3.cpp
+  OgreNode.cpp
+  OgreNumerics.cpp
+  OgreOptimisedUtil.cpp
+  OgreOptimisedUtilGeneral.cpp
+  OgreOptimisedUtilSSE.cpp
+  OgreParticleEmitter.cpp
+  OgreParticleEmitterCommands.cpp
+  OgreParticleSystem.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMurmurHash3.cpp(100,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMurmurHash3.cpp(100,30): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMurmurHash3.cpp(156,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMurmurHash3.cpp(156,31): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMurmurHash3.cpp(261,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMurmurHash3.cpp(261,31): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  OgreParticleSystemManager.cpp
+  OgrePass.cpp
+  OgrePatchMesh.cpp
+  OgrePatchSurface.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePass.cpp(47,1): warning C4267: “初始化”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePatchMesh.cpp(78,68): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePatchMesh.cpp(89,72): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePatchMesh.cpp(101,69): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePatchSurface.cpp(176,39): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePatchSurface.cpp(177,39): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePatchSurface.cpp(382,36): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePatchSurface.cpp(383,36): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePass.cpp(174,5): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePass.cpp(367,31): warning C4244: “参数”: 从“unsigned short”转换到“Ogre::uint8”，可能丢失数据
+  OgrePixelCountLodStrategy.cpp
+  OgrePixelFormat.cpp
+  OgrePlatformInformation.cpp
+  OgrePolygon.cpp
+  OgrePose.cpp
+  OgrePredefinedControllers.cpp
+  OgrePrefabFactory.cpp
+  OgreProfiler.cpp
+  OgreQuaternion.cpp
+  OgreRectangle2D.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgrePixelCountLodStrategy.cpp(120,96): warning C4244: “return”: 从“double”转换到“Ogre::Real”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreQuaternion.cpp(39,45): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+  OgreRenderQueue.cpp
+  OgreRenderQueueSortingGrouping.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreProfiler.cpp(261,53): warning C4244: “=”: 从“uint64_t”转换到“Ogre::ulong”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreProfiler.cpp(328,54): warning C4244: “初始化”: 从“uint64_t”转换到“Ogre::ulong”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreProfiler.cpp(328,29): warning C4244: “初始化”: 从“uint64_t”转换到“const Ogre::ulong”，可能丢失数据
+  OgreRenderSystem.cpp
+  OgreRenderSystemCapabilities.cpp
+  OgreRenderSystemCapabilitiesManager.cpp
+  OgreRenderSystemCapabilitiesSerializer.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreParticleEmitter.cpp(319,24): warning C4244: “return”: 从“Ogre::Real”转换到“unsigned short”，可能丢失数据
+  OgreRenderTarget.cpp
+  OgreRenderTexture.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMesh.cpp(1292,45): warning C4244: “初始化”: 从“__int64”转换到“unsigned short”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMesh.cpp(1447,105): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreMesh.cpp(1452,89): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRenderQueue.cpp(247,60): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint8”，可能丢失数据
+  OgreRenderToVertexBuffer.cpp
+  OgreRenderWindow.cpp
+  OgreRenderable.cpp
+  OgreResource.cpp
+  OgreResourceBackgroundQueue.cpp
+  OgreResourceGroupManager.cpp
+  OgreResourceManager.cpp
+  OgreRibbonTrail.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRenderSystem.cpp(424,97): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint”，可能丢失数据
+  OgreRoot.cpp
+  OgreRotationSpline.cpp
+  OgreSceneManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRenderTarget.cpp(282,44): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRenderTarget.cpp(290,32): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+  OgreSceneManagerEnumerator.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRenderTarget.cpp(470,27): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  OgreSceneNode.cpp
+  OgreSceneQuery.cpp
+  OgreScriptCompiler.cpp
+  OgreScriptLexer.cpp
+  OgreScriptParser.cpp
+  OgreScriptTranslator.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneNode.cpp(309,34): warning C4244: “参数”: 从“__int64”转换到“unsigned short”，可能丢失数据
+  OgreSerializer.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneNode.cpp(346,35): warning C4244: “参数”: 从“__int64”转换到“unsigned short”，可能丢失数据
+  OgreShadowCameraSetup.cpp
+  OgreShadowCameraSetupFocused.cpp
+  OgreShadowCameraSetupLiSPSM.cpp
+  OgreShadowCameraSetupPSSM.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowCameraSetup.cpp(130,62): warning C4305: “参数”: 从“double”到“float”截断
+  OgreShadowCameraSetupPlaneOptimal.cpp
+  OgreShadowCaster.cpp
+  OgreShadowRenderer.cpp
+  OgreShadowTextureManager.cpp
+  OgreShadowVolumeExtrudeProgram.cpp
+  OgreSimpleRenderable.cpp
+  OgreSimpleSpline.cpp
+  OgreSkeleton.cpp
+  OgreSkeletonInstance.cpp
+  OgreSkeletonManager.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowRenderer.cpp(103,1): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+  OgreSkeletonSerializer.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowCaster.cpp(334,47): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowCaster.cpp(453,79): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowCaster.cpp(458,55): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowRenderer.cpp(1055,66): warning C4305: “参数”: 从“double”到“float”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowCaster.cpp(487,71): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowRenderer.cpp(1055,95): warning C4305: “参数”: 从“double”到“float”截断
+  OgreSkyRenderer.cpp
+  OgreStaticGeometry.cpp
+  OgreStreamSerialiser.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowRenderer.cpp(1384,73): warning C4267: “初始化”: 从“size_t”转换到“unsigned short”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowRenderer.cpp(1462,73): warning C4267: “初始化”: 从“size_t”转换到“unsigned short”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowRenderer.cpp(1479,41): warning C4244: “参数”: 从“unsigned short”转换到“Ogre::uint8”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreShadowRenderer.cpp(1486,57): warning C4267: “=”: 从“size_t”转换到“unsigned short”，可能丢失数据
+  OgreString.cpp
+  OgreStringConverter.cpp
+  OgreStringInterface.cpp
+  OgreSubEntity.cpp
+  OgreSubMesh.cpp
+  OgreTagPoint.cpp
+  OgreTangentSpaceCalc.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreStringConverter.cpp(292,27): warning C4244: “初始化”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+  OgreTechnique.cpp
+  OgreTexture.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSkeleton.cpp(887,70): warning C4267: “初始化”: 从“size_t”转换到“Ogre::ushort”，可能丢失数据
+  OgreTextureManager.cpp
+  OgreTextureUnitState.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreTexture.cpp(130,35): warning C4244: “=”: 从“Ogre::ushort”转换到“Ogre::uchar”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreTexture.cpp(140,33): warning C4244: “=”: 从“Ogre::ushort”转换到“Ogre::uchar”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreTexture.cpp(150,35): warning C4244: “=”: 从“Ogre::ushort”转换到“Ogre::uchar”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreTexture.cpp(151,33): warning C4244: “=”: 从“Ogre::ushort”转换到“Ogre::uchar”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSubEntity.cpp(104,51): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSubEntity.cpp(105,49): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreTimer.cpp
+  OgreUnifiedHighLevelGpuProgram.cpp
+  OgreUserObjectBindings.cpp
+  OgreVector.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreTangentSpaceCalc.cpp(137,55): warning C4267: “+=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreVertexIndexData.cpp
+  OgreViewport.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(99,51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneManager.cpp(1732,40): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneManager.cpp(1827,68): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(266,94): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(270,93): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreWireBoundingBox.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(276,92): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(281,91): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(343,115): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+  OgreWorkQueue.cpp
+  OgreDDSCodec.cpp
+  OgreETCCodec.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreViewport.cpp(103,111): warning C4244: “参数”: 从“T”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreViewport.cpp(103,86): warning C4244: “参数”: 从“T”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreViewport.cpp(103,61): warning C4244: “参数”: 从“T”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreViewport.cpp(103,39): warning C4244: “参数”: 从“T”转换到“const T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=Ogre::int32
+          ]
+  OgreFileSystemLayer.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreWorkQueue.cpp(172,31): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreWorkQueue.cpp(191,77): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDDSCodec.cpp(396,87): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreDDSCodec.cpp(398,78): warning C4267: “参数”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreStaticGeometry.cpp(413,47): warning C4267: “=”: 从“size_t”转换到“Ogre::uint32”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreScriptTranslator.cpp(1840,46): warning C4305: “初始化”: 从“double”到“Ogre::Real”截断
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneManager.cpp(2638,29): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneManager.cpp(2637,30): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneManager.cpp(2636,29): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneManager.cpp(2635,30): warning C4244: “参数”: 从“double”转换到“const T”，可能丢失数据
+          with
+          [
+              T=Ogre::int32
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreSceneManager.cpp(3580,73): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=Ogre::ushort
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(69,32): warning C4244: “=”: 从“int32_t”转换到“float”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreVertexIndexData.cpp(276): message : 查看对正在编译的函数 模板 实例化“void Ogre::unpack_10_10_10_2<false>(Ogre::uint8 *,Ogre::uint8 *,int)”的引用
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreScriptTranslator.cpp(3707,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreScriptTranslator.cpp(3829): message : 查看对正在编译的函数 模板 实例化“void Ogre::safeSetConstant<float,std::_List_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>>>(const Ogre::GpuProgramParametersPtr &,const Ogre::String &,size_t,It,It,size_t,Ogre::PropertyAbstractNode *,Ogre::ScriptCompiler *)”的引用
+          with
+          [
+              _Ty=Ogre::AbstractNodePtr,
+              It=std::_List_const_iterator<std::_List_val<std::_List_simple_types<Ogre::AbstractNodePtr>>>
+          ]
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRoot.cpp(715,27): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRoot.cpp(798,27): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRoot.cpp(807,38): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreRoot.cpp(872,24): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  OgreFileSystem.cpp
+  OgreZip.cpp
+D:\ogre-git\ogre\ogre\OgreMain\src\OgreZip.cpp(109,19): warning C4244: “初始化”: 从“ssize_t”转换到“int”，可能丢失数据
+  zip.c
+    正在创建库 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreMain_d.lib 和对象 D:/ogre-git/ogre/ogre/builds/lib/Debug/OgreMain_d.exp
+  OgreMain.vcxproj -> D:\ogre-git\ogre\ogre\builds\bin\Debug\OgreMain_d.dll
