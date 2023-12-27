@@ -1,0 +1,16 @@
+# Ignore CLion project directory and iml files  
+#**/*.iml
+pch
+ipch
+obj
+builds/.vs/OGRE/v16/ipch/8e13db52664cc031.ipch
+builds/.vs/  
+builds/*.tar.gz  
+builds/*.pdb  
+builds/*.ipch
+**/*.pch
+**/*.ipch
+**/*.obj
+**/*.tar.gz
+# Ignore build directories
+builds/.vs/
